@@ -1,0 +1,7 @@
+$(document).ready(function(){
+	$( "header ul li" ).hover(
+  function() {
+		//$(this).css({"background-color": "#B4C4C4",	"border-top":"2px solid #B4C4C4","border-bottom":"3px solid #A7A7A5"});
+		 $(this).attr('class','mousehover');
+		});
+});

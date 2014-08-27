@@ -1,0 +1,212 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	padding:50px;
+}
+
+#main
+{
+	margin:0 auto;
+	padding:30px 40px;
+	width:600px;
+	vertical-align: middle;
+	border:15px solid;
+	-webkit-border-image:url('../images/main_bg.jpg') 30 30 round; /* Safari 3-5 */
+    -o-border-image:url('../images/main_bg.jpg') 30 30 round; /* Opera 11-12 */
+   border-image:url('../images/main_bg.jpg') 30 30 repeat;
+   -moz-border-image:url('../images/main_bg.jpg') 30 30 repeat;
+	background-image: url('../images/bgc.jpg');
+}
+
+#content
+{
+	margin:0 auto;
+	width:600px;
+	position:relative;	
+	border-radius:15px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+
+header
+{
+	font-family: 'League Gothic';
+	font-weight: 100;
+	color: #808E8E;
+	font-size: 45px;
+	background-color: #B4C4C4;
+	border-bottom: 2px solid #A7A7A5;
+	border-radius:15px 15px 0px 0px;	
+	padding: 10px 0px 10px 15px;
+}
+ul
+{
+	position: relative;
+	padding: 0px;	
+	margin-top: -2px;
+	background-color: #C7B29F;
+}
+
+#highlight
+{
+	background-color: #ECE7E1;
+	border-top:2px solid #C90606;
+	color: #5D544B;
+	border-bottom:	1px solid #C7B29F;
+}
+
+ul li:first-child
+{
+	margin-left: 12px;
+
+}
+ul li
+{
+	position: relative;
+	font-size:30px;
+	padding: 10px 0px;
+	width:112px;
+	display: inline-block;
+	text-align: center;
+	color:#ECE7E1;
+	font-family: League Gothic;
+	text-decoration: none;
+}
+.mousehover
+{
+	padding-bottom: 8px;
+	background-color: #B4C4C4;	
+	border-top:2px solid #B4C4C4;
+	border-bottom:	3px solid #A7A7A5;
+}
+#details
+{
+	width: 600px;	
+}
+
+p
+{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+	
+table tr
+{	
+	height:30px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color:#736A65;
+}
+table tr:first-of-type
+{
+	border-bottom:2px solid #D5CDC2;	
+	font-size: 28px;
+}
+table td
+{
+	text-align: center;	
+}
+
+table tr th
+{
+	background-color:#fefefe;
+	font-weight: normal;
+	font-family: League Gothic;
+}
+
+table tr th span
+{
+	font-size:18px;
+	font-weight: bolder;
+	position: relative;
+	top:-3px;	
+}
+table tr:nth-child(odd)
+{ 
+	background-color:#E8E4D9;
+}
+table tr:nth-child(even)
+{ 
+	background-color:#fefefe;
+}
+table
+{
+	width:600px;	
+}
+table tr td:nth-of-type(5),table tr td:nth-of-type(6)
+{
+	color:#D65A64;
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ui-tooltip,.arrow:after {
+    background-color: #554837;
+    border: 2px solid white;
+    
+  }
+  .ui-tooltip {
+    border-radius:20px;
+    font: 12px  Sans-Serif;
+    box-shadow: 0 0 7px #554837;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 20px;
+  	 background-color: white;
+    height: 20px;
+    box-shadow: 6px 5px 9px -9px #554837;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+
+
+
+
+
+
+
+
